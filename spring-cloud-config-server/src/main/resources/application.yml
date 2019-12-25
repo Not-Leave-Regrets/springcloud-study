@@ -1,0 +1,19 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Not-Leave-Regrets/config-server
+          searchPaths: respo
+          username: ff_44_2019@163.com
+          password: ff_44_2015
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
