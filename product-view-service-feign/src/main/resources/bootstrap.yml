@@ -1,3 +1,5 @@
+server:
+  port: 8012
 spring:
   cloud:
     config:
@@ -8,4 +10,5 @@ spring:
         serviceId:  config-server
   client:
     serviceUrl:
-      defaultZone:  http://localhost:8762/eureka/
+      defaultZone:  http://localhost:8761/eureka/
+

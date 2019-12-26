@@ -1,7 +1,7 @@
 package com.wlf.web;
 
 
-import com.wlf.pojo.Product;
+import com.wlf.entity.Product;
 import com.wlf.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -23,7 +23,7 @@ public class ProductController {
 	
     @RequestMapping("/products")
     public Object products(Model m) {
-    	List<Product> ps = productService.listProducts();
+    	List<Product> ps = productService.listProduct();
     	m.addAttribute("version", version);    	
     	m.addAttribute("ps", ps);
         return "products";
