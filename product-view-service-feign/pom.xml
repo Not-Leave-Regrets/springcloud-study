@@ -35,10 +35,32 @@
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
         <!--end-->
+        <!--配置客户端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+        <!--end-->
+
+        <!--基于rabbit的消息总线bus-->
+        <!--用来支持访问/actuator/bus-refresh路径-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--用来支持rabbitMQ的-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+        <!--end-->
+
+        <!--熔断器hystrix-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <!--end-->
     </dependencies>
 
 </project>

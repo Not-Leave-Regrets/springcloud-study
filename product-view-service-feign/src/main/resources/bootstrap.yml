@@ -1,5 +1,5 @@
 server:
-  port: 8012
+  port: 8013
 spring:
   cloud:
     config:
@@ -11,4 +11,14 @@ spring:
   client:
     serviceUrl:
       defaultZone:  http://localhost:8761/eureka/
-
+#bus总线配置
+bus:
+  enabled: true
+  trace:
+    enabled: true
+#rabbitMQ配置
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
