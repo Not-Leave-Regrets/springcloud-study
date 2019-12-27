@@ -9,6 +9,7 @@
         <module>product-view-service-ribbon</module>
         <module>product-view-service-feign</module>
         <module>spring-cloud-config-server</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
