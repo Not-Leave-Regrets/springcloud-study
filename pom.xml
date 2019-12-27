@@ -10,6 +10,7 @@
         <module>product-view-service-feign</module>
         <module>spring-cloud-config-server</module>
         <module>hystrix-dashboard</module>
+        <module>turbine</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

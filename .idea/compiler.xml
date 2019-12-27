@@ -12,6 +12,7 @@
         <module name="product-view-service-feign" />
         <module name="product-view-service-ribbon" />
         <module name="spring-cloud-config-server" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="product-view-service-ribbon" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
       <module name="springcloud-study" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="product-view-service-ribbon" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />
       <module name="springcloud-study" options="-parameters" />
+      <module name="turbine" options="-parameters" />
     </option>
   </component>
 </project>
