@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: oamsvc
+server:
+  port: 10112
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+

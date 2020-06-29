@@ -4,12 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oamsvc/oamsvc.iml" filepath="$PROJECT_DIR$/oamsvc/oamsvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/product-data-service/product-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-study.iml" filepath="$PROJECT_DIR$/springcloud-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>
